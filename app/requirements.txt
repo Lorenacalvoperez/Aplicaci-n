@@ -1,4 +1,1 @@
-streamlit 
-pandas 
-base64
-fpdf
+fpdf==1.7.2
