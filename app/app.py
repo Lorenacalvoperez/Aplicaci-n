@@ -228,8 +228,8 @@ def create_download_link(val, filename):
 class PDF(FPDF):
     def header(self):
         # Logo
-        self.image('Logo.png', 30, 12, 30)
-        self.image('HUBU.png', 80, 14, 50)
+        self.image('app/Logo_pagina.png', 30, 12, 30)
+        self.image('app/HUBU.png', 80, 14, 50)
         # Arial bold 15
         self.set_font('Times', 'I', 9)
         # Move to the right
